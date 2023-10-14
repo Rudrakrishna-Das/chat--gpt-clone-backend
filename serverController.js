@@ -1,4 +1,5 @@
 require("dotenv").config();
+const fetch = require("node-fetch");
 
 exports.getSomething = async (req, res, next) => {
   const options = {
